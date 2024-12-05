@@ -7,7 +7,7 @@ const Dashboard = () => {
     const { user, signOut } = useAuthenticator();
 
   useEffect(() => {
-    // Kullanıcı bilgilercfdfdini almak için Auth.currentUserInfo() kullanın
+    // Kullanıcı bilgilerini almak için Auth.currentUserInfo() kullanın
     const fetchUser = async () => {
       try {
       } catch (error) {
