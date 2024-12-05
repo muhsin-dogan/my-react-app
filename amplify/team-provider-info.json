@@ -1,0 +1,24 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myreactapp-dev-c8083-authRole",
+      "UnauthRoleArn": "arn:aws:iam::545009855636:role/amplify-myreactapp-dev-c8083-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::545009855636:role/amplify-myreactapp-dev-c8083-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myreactapp-dev-c8083-deployment",
+      "UnauthRoleName": "amplify-myreactapp-dev-c8083-unauthRole",
+      "StackName": "amplify-myreactapp-dev-c8083",
+      "StackId": "arn:aws:cloudformation:us-east-1:545009855636:stack/amplify-myreactapp-dev-c8083/c76effc0-b30a-11ef-ab13-0afff9169823",
+      "AmplifyAppId": "dqwwp19p63m7c",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-myreactapp-dev-c8083-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "myreactapp8ba58cc4": {}
+      },
+      "api": {
+        "myreactapp": {}
+      }
+    }
+  }
+}
