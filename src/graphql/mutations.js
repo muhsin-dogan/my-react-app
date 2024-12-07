@@ -10,6 +10,7 @@ export const createNoting = /* GraphQL */ `
       id
       name
       description
+      user_id
       createdAt
       updatedAt
       __typename
@@ -25,6 +26,7 @@ export const updateNoting = /* GraphQL */ `
       id
       name
       description
+      user_id
       createdAt
       updatedAt
       __typename
@@ -40,6 +42,7 @@ export const deleteNoting = /* GraphQL */ `
       id
       name
       description
+      user_id
       createdAt
       updatedAt
       __typename
