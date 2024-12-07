@@ -99,6 +99,9 @@
     "categories": {
       "auth": {
         "myreactapp8ba58cc4": {}
+      },
+      "api": {
+        "myreactapp": {}
       }
     }
   }
