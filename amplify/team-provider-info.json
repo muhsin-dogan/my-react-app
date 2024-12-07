@@ -41,5 +41,26 @@
         "myreactapp": {}
       }
     }
+  },
+  "newbranch": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myreactapp-newbranch-7808b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::545009855636:role/amplify-myreactapp-newbranch-7808b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::545009855636:role/amplify-myreactapp-newbranch-7808b-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myreactapp-newbranch-7808b-deployment",
+      "UnauthRoleName": "amplify-myreactapp-newbranch-7808b-unauthRole",
+      "StackName": "amplify-myreactapp-newbranch-7808b",
+      "StackId": "arn:aws:cloudformation:us-east-1:545009855636:stack/amplify-myreactapp-newbranch-7808b/812a1700-b474-11ef-aded-0e321035bced",
+      "AmplifyAppId": "dbsnxqzhb8tfb"
+    },
+    "categories": {
+      "auth": {
+        "myreactapp8ba58cc4": {}
+      },
+      "api": {
+        "myreactapp": {}
+      }
+    }
   }
 }
