@@ -1,29 +1,31 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getTodo = /* GraphQL */ `
-  query GetTodo($id: ID!) {
-    getTodo(id: $id) {
+export const getNoting = /* GraphQL */ `
+  query GetNoting($id: ID!) {
+    getNoting(id: $id) {
       id
       name
       description
+      user_id
       createdAt
       updatedAt
       __typename
     }
   }
 `;
-export const listTodos = /* GraphQL */ `
-  query ListTodos(
-    $filter: ModelTodoFilterInput
+export const listNotings = /* GraphQL */ `
+  query ListNotings(
+    $filter: ModelNotingFilterInput
     $limit: Int
     $nextToken: String
   ) {
-    listTodos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    listNotings(filter: $filter, limit: $limit, nextToken: $nextToken) {
       items {
         id
         name
         description
+        user_id
         createdAt
         updatedAt
         __typename
